@@ -1,13 +1,16 @@
 import React from "react";
 import StaticCounter from "./component/StaticCounter";
 import DynamicCounter from "./component/DynamicCounter";
+import Todo from "./component/simpleTodo/Todo";
+import SimpleTodo from "./component/simpleTodo/SimpleTodo";
 
 const App = () => {
   return (
-    <div>
-      <StaticCounter />
-      <DynamicCounter />
-    </div>
+    <>
+      {/* <StaticCounter />
+      <DynamicCounter /> */}
+      <SimpleTodo />
+    </>
   );
 };
 
