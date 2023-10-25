@@ -1,14 +1,12 @@
-import React from 'react';
-import StaticCounter from './component/StaticCounter';
-import DynamicCounter from './component/DynamicCounter';
-
-
+import React from "react";
+import StaticCounter from "./component/StaticCounter";
+import DynamicCounter from "./component/DynamicCounter";
 
 const App = () => {
   return (
     <div>
-    <StaticCounter/>
-    <DynamicCounter/>
+      <StaticCounter />
+      <DynamicCounter />
     </div>
   );
 };

@@ -1,12 +1,12 @@
-import { DECREMENT, INCREMENT } from "./actionsType"
+import { DECREMENT, INCREMENT } from "./actionsType";
 
 export const increment = () => {
-    return{
-        type:INCREMENT
-    }
+  return {
+    type: INCREMENT
+  };
 };
 export const decrement = () => {
-    return{
-        type:DECREMENT
-    }
-}
+  return {
+    type: DECREMENT
+  };
+};
